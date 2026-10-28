@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Au fil des 4 saisons, aménagement paysager à Corbreuse (91)</title>
+<meta name="description" content="Au fil des 4 saisons, aménagement paysager à Corbreuse (91) : conception, création et entretien de jardins. Appelez le 01 60 81 92 55.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f3d2b'/%3E%3Cpath d='M16 6c6 4 8 10 0 20C8 16 10 10 16 6z' fill='%237fb069'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><div class="wrap nav">
+<a class="logo" href="https://webaunet.github.io/au-fil-des-4-saisons/" aria-label="Au fil des 4 saisons, accueil"><svg width="38" height="38" viewBox="0 0 38 38" aria-hidden="true"><circle cx="19" cy="19" r="19" fill="#1f3d2b"/><path d="M19 7c1 6-1 9-5 12 4 0 6 2 5 6 3-3 5-6 5-9 0-4-2-7-5-9z" fill="#7fb069"/><circle cx="12" cy="29" r="2.4" fill="#e9b44c"/><circle cx="19" cy="31" r="2.4" fill="#c8693a"/><circle cx="26" cy="29" r="2.4" fill="#a9c0da"/></svg><span>Au fil des 4 saisons<small>Aménagement paysager</small></span></a>
+<nav id="menu" aria-label="Navigation principale"><ul>
+<li><a href="index.html"{a0}>Accueil</a></li><li><a href="prestations.html"{a1}>Prestations</a></li><li><a href="saisons.html"{a2}>Au fil des saisons</a></li><li><a href="contact.html"{a3}>Contact</a></li></ul></nav>
+<div class="droite"><a class="btn tel" href="tel:+33160819255" aria-label="Appeler le 01 60 81 92 55">&#9990; <span>01 60 81 92 55</span></a>
+<button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span></span></button></div>
+</div></header>
+
+@@
+<footer><div class="wrap"><span>Au fil des 4 saisons · Corbreuse (91)</span><span><a href="tel:+33160819255">01 60 81 92 55</a> · <a href="tel:+33610208133">06 10 20 81 33</a></span><span>Maquette de démonstration</span></div></footer>
+<script src="js/main.js"></script></body></html>
