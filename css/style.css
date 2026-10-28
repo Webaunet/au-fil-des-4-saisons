@@ -87,3 +87,44 @@ footer a{text-decoration:none;display:inline-block;padding:10px 0;min-height:44p
 .sur{font-size:1rem}.pastilles span{font-size:1rem}
 @media(min-width:981px){main>section{min-height:calc(100svh - var(--h));display:flex;flex-direction:column;justify-content:center}.g4{grid-template-columns:repeat(4,1fr)}.g4 .carte img{aspect-ratio:4/3}}
 @media(max-width:620px){.etapes .photo-r img{aspect-ratio:16/9}}
+/* pages internes */
+.entete{background:var(--vert);color:#fff;padding:56px 0 96px}
+.entete .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.entete h1,.entete .sur{color:#fff}.entete .sur{opacity:.8}.entete p{margin:16px 0 26px;font-size:1.15rem;max-width:32em}
+.entete .btn.clair{color:#fff;border-color:#fff}.entete .btn.clair:hover{background:#fff;color:var(--vert)}
+.mosaique{display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:1fr 1fr;gap:12px;aspect-ratio:5/4}
+.mosaique img{width:100%;height:100%;object-fit:cover;border-radius:var(--r)}
+.mosaique img:first-child{grid-row:span 2;border-radius:var(--r) 120px var(--r) var(--r)}
+@media(max-width:860px){.entete .wrap{grid-template-columns:1fr}.entete{padding:36px 0 80px}.mosaique{aspect-ratio:16/10}}
+.bloc{background:var(--creme);border-radius:48px 48px 0 0;margin-top:-48px;padding-top:96px}
+.bloc.sable{background:var(--sable)}
+.bloc.vert{background:var(--vert2);color:#fff}.bloc.vert h2,.bloc.vert h3{color:#fff}
+.liste{display:grid;gap:14px;margin-top:22px;list-style:none;padding:0}
+.liste li{background:#fff;border-radius:18px;padding:16px 20px;box-shadow:var(--ombre)}
+.liste strong{display:block;color:var(--vert)}
+.inverse{direction:rtl}.inverse>*{direction:ltr}
+@media(max-width:860px){.inverse{direction:ltr}}
+.tuiles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.tuile{background:#fff;color:var(--encre);border-radius:var(--r);padding:26px}.tuile h3{color:var(--vert)}.tuile p{margin-top:8px}
+@media(max-width:860px){.tuiles{grid-template-columns:1fr}}
+.long{display:grid;gap:22px;margin-top:34px}
+.sai{display:grid;grid-template-columns:90px 1fr;gap:22px;border-radius:var(--r);padding:28px;color:var(--encre)}
+.sai svg{width:70px;height:70px}.sai h3{color:var(--encre);font-size:1.5rem}.sai ul{margin:10px 0 0 20px}
+.sai.pr{background:var(--pr)}.sai.et{background:var(--et)}.sai.au{background:#e08a5b}.sai.hi{background:#a9c0da}
+@media(max-width:620px){.sai{grid-template-columns:1fr;padding:22px}.sai svg{width:52px;height:52px}}
+/* formulaire */
+.formcarte{background:#fff;border-radius:var(--r);padding:34px;box-shadow:var(--ombre)}
+.champ{margin-bottom:18px}.champ label{display:block;font-weight:700;margin-bottom:6px;color:var(--vert)}
+.champ input,.champ select,.champ textarea{width:100%;min-height:48px;padding:10px 14px;border:2px solid #c9c2ae;border-radius:14px;font:inherit;font-size:16px;background:#fff;color:var(--encre)}
+.champ textarea{min-height:110px;resize:vertical}.champ input:focus,.champ select:focus,.champ textarea:focus{outline:3px solid var(--au);outline-offset:1px;border-color:var(--vert)}
+.champ .err{color:#a13a12;font-weight:600;margin-top:6px;min-height:0}.champ [aria-invalid=true]{border-color:#a13a12}
+.formcarte .btn{width:100%}
+.recap{display:none;margin-top:22px}.recap.visible{display:block}
+.recap pre{white-space:pre-wrap;font:inherit;background:var(--sable);padding:16px;border-radius:14px;margin:12px 0}
+.recap .btns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.confirm{background:#e4f0dc;border-radius:14px;padding:14px 16px;font-weight:600;color:var(--vert)}
+@media(max-width:620px){.recap .btns{grid-template-columns:1fr}.formcarte{padding:22px}}
+.coord{display:grid;gap:14px;margin-top:22px}
+.coord a{display:flex;align-items:center;gap:14px;background:#fff;border-radius:18px;padding:16px 20px;text-decoration:none;box-shadow:var(--ombre);min-height:64px;font-weight:600}
+.coord a:hover{transform:translateY(-2px)}.coord small{display:block;font-weight:400;color:#4b5a50}
+@media(max-width:620px){.sai{padding:18px}.entete .photo-r img{aspect-ratio:16/9}.long{gap:14px;margin-top:22px}}
